@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/Im_List"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="150dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/Tv_list"
+        android:layout_below="@+id/Im_List"
+        android:gravity="center"
+        android:text="name"
+        android:textSize="14dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/Tv_id"
+        android:layout_below="@+id/Im_List"
+        android:gravity="center"
+        android:text="name"
+        android:visibility="gone"
+        android:textSize="14dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/Im_delete"
+        android:gravity="center"
+        android:src="@drawable/ic_delete"
+        android:textSize="14dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+</RelativeLayout>
